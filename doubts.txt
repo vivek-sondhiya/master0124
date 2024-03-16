@@ -1,6 +1,5 @@
 1) Download GIT from git hub
 2) Install GIT hub
-3) 
 
 echo "# master0124" >> README.md
 git init
