@@ -1,0 +1,15 @@
+1) Download GIT from git hub
+2) Install GIT hub
+3) 
+
+echo "# master0124" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vivek-sondhiya/master0124.git
+git push -u origin main
+
+git remote add origin https://github.com/vivek-sondhiya/master0124.git
+git branch -M main
+git push -u origin main
