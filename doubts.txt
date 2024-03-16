@@ -2,3 +2,6 @@
 2) How to check list of commit in some period
 3) list of commit for date using tags
 4) List of reviewed commit 
+5) How to create user in git 
+
+git clone https://github.com/vivek-sondhiya/master0124.git
