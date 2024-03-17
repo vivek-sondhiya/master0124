@@ -1,0 +1,26 @@
+new file:   abc.txt
+new file:   test123.txt
+------------------------------------------------
+$ git log --oneline --decorate
+2df5998 (HEAD -> feature24, origin/feature24) testing data 1234
+bf7de62 code chck-in
+ce936a0  code check-in into feature branch
+9ee48f5 (origin/release24, origin/main, release24, main) first time code check-in
+6495af9 first time code check-in
+------------------------------------------
+--Mix reset 
+git reset bf15639
+--remove the change from local as well 
+git restore <file> actual copy from repo)
+
+--Soft reset
+If we want to reset the change than after reseting commit-id, we need to also restore the file
+git reset 15adbd2
+now if you want to revert the complete change from stage
+git restore --staged test123.txt
+now remove the change from local (actual copy from repo)
+git restore <file>
+
+--Hard Reset
+
+git restore --staged <file>
